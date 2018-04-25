@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Baking Recipes</string>
+    <string name="url_string">https://d17h27t6h515a5.cloudfront.net/topher/2017/May/59121517_baking/baking.json</string>
+    <string name="intent_extra_tag">recipe</string>
+    <string name="intent_extra_tag_string">Ingredients for </string>
+    <string name="loader_animation_text">Loading</string>
+    <string name="servings_label">Servings: </string>
+    <string name="ingredients_label">Ingredients</string>
+    <string name="appwidget_text">Ingredients</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_help_message">Choose a recipe to see the ingredients!</string>
+    <string name="widget_title_extra_text">Ingredients for </string>
+    <string name="ingredients_detail_title">Ingredients</string>
+</resources>
