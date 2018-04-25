@@ -11,10 +11,10 @@ Android Application for one of the projects at Android Developer Nanodegree by G
 <h3 id="overview">Overview</h3>
 
   <p>I applied for a Google Developer Scholarship in October 2017 (<a href="https://www.udacity.com/grow-with-google" target="_blank">scholarship site</a>). There were 4 paths available, and since I have already completed Udacity's Android Basics Nanodegree by this time, I wanted to take get enrolled into the Android Developer Track.</p>
-  <p> So I did, and completed the Challenge Course over the 3 months. 1,500 students got selected from the ones who managed to complete this short course in time and I was luckily one of them, so I got full access to the Android Devloper Nanodegree (<a href="https://eu.udacity.com/course/android-developer-nanodegree-by-google--nd801" target="_blank">nanodegree site</a>)</p>
+  <p> So I did, and completed the Challenge Course over the 3 months. 1,500 students got selected from the ones who managed to complete this short course in time and I was luckily one of them, so I got full access to the Android Developer Nanodegree (<a href="https://eu.udacity.com/course/android-developer-nanodegree-by-google--nd801" target="_blank">nanodegree site</a>)</p>
   <p>This is one of the projects I had to complete to finish the scholarship. Some guidelines were provided and also some very accurate details about some features I had to implement (<a href="#specifications">see them here</a>), but I had to start building from scratch. And after about three weeks of work (with some huge gaps in it), my work got approved.</p>
   
-<h3 id="specifications">The specifiacations to meet for this project: </h3>
+<h3 id="specifications">The specifications to meet for this project: </h3>
 
   <h6>Make A Baking App</h6>
   
@@ -60,7 +60,7 @@ Android Application for one of the projects at Android Developer Nanodegree by G
    |<img src="https://github.com/TonMarton/Baking-App/blob/master/Screenshots/mainactivity_handset_portrait.png" width="200"/> | <img src="https://github.com/TonMarton/Baking-App/blob/master/Screenshots/mainactivity_handset_landscape.png" width="200"/> | <img src="https://github.com/TonMarton/Baking-App/blob/master/Screenshots/mainactivity_tablet_landscape.png" width="200"> |
    
    <h4>RecipeActivity.java</h4>
-  <p>This was the main struggle in the design process, I didn't know which way to go with the fragments on different screen sizes and orientations. Finally, I decided that I will implement custom animations and reuse the same fragment as much as possible. This way the app doesen't have to define a separate activity each time the user switches over to another recipe step. Advantages of this approach are that the animations and layouts are quite nice for every screen size, without much customization and alternative layouts, nearly no extra code for tablet layouts, better performance (since the fragment gets created only once). But on the other hand, I sacraficed a bit of code readablity and consizeness, so I will definetely not follow this route, or at least I will be more careful when writing long if else statments to determine the screen size, etc. This was my first time using fragments to such an extent and my very first time using exoPlayer library.</p>
+  <p>This was the main struggle in the design process, I didn't know which way to go with the fragments on different screen sizes and orientations. Finally, I decided that I will implement custom animations and reuse the same fragment as much as possible. This way the app doesn't have to define a separate activity each time the user switches over to another recipe step. Advantages of this approach are that the animations and layouts are quite nice for every screen size, without much customization and alternative layouts, nearly no extra code for tablet layouts, better performance (since the fragment gets created only once). But on the other hand, I sacrificed a bit of code readability and conciseness, so I will definitely not follow this route, or at least I will be more careful when writing long if else statements to determine the screen size, etc. This was my first time using fragments to such an extent and my very first time using exoPlayer library.</p>
   <p><i>screenshots:</i></p>
   
    <h6>MasterListFragment</h6>
@@ -79,7 +79,7 @@ Android Application for one of the projects at Android Developer Nanodegree by G
  <img src="https://github.com/TonMarton/Baking-App/blob/master/Screenshots/recipeactivity_tablet_landscape.png" width="200"/>
  
  <h4>Widget</h4>
- <p>I had some struggle in the beginning with the widget, since this was my first one. But than it went all fine. I sadly realised that the Adapters, Intents and even Parcelable objects have their own ways when it comes to widgets.</p>
+ <p>I had some struggle in the beginning with the widget, since this was my first one. But then it went all fine. I sadly realised that the Adapters, Intents and even Parcelable objects have their own ways when it comes to widgets.</p>
  
    <p><i>screenshots:</i></p>
  <img src="https://github.com/TonMarton/Baking-App/blob/master/Screenshots/widget_handset.png" width="200"/>
